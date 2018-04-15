@@ -1,0 +1,23 @@
+<div id="login-box">
+
+    <div id="login-content">
+        <p id="login-header">Login</p>
+        <p id="login-subheader">Enter your Charger ID and Password</p>
+
+        <form>
+            <label for="username">Charger ID:</label><br>
+            <input type="text" id="username" ng-model="$ctrl.username">
+            <br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" ng-model="$ctrl.password">
+            <br><br>
+            <input type="submit" style="color: black;" value="LOGIN" ng-click="$ctrl.authenticate()">
+        </form>
+
+        <p id="forgot-link"><a href="">Forgot Charger ID / Password?</a></p>
+
+        <p>Remember to close your browser when finished.</p>
+    </div>
+
+    <img id="uah-login-logo" src="img/UAH_Login_Logo.png" alt="UAH Logo" />
+</div>

@@ -1,0 +1,61 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column-left {
+        float: left;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        border-style: solid;
+        border-width: 0px 1px 0px 0px;
+        top:250px;
+        bottom:250px;
+        margin: 0 auto 0 auto;
+    }
+    .column-right {
+        float: left;
+        position: absolute;
+        width: 50%;
+        height: 50%;
+        padding: 10px;
+        border-style: solid;
+        border-width: 0px 0px 0px 1px;
+        top:250px;
+        bottom:250px;
+        left: 50%;
+        margin: 0 auto 0 auto;
+    }
+
+    button {
+        font-size: 40px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 160px;
+        width: 405px;
+        height: 138px;
+        background-color: #cccccc;
+    }
+</style>
+<header>
+    <img id="uah-template-logo" src="img/UAH_Logo.png" alt="UAH_LOGO"/>
+    <p id="template-header-title">POST Grad</p>
+    <p id="template-header-subtitle">Program of Study Tracker for Grad Students</p>
+</header>
+
+<div>
+    <div class="column-left">
+        <button type="button" ng-click="$ctrl.goToSearch()">Search for individual student</button>
+    </div>
+    <div class="column-right">
+        <button type="button" ng-click="$ctrl.goToViewAll()">View all students assigned to me</button>
+    </div>
+</div>
+
+<footer>
+    <p id="template-footer-text">Need help? Call IT at 555.555.5555</p>
+</footer>

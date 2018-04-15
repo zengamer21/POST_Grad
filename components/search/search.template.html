@@ -1,0 +1,166 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    #search-div {
+        -webkit-box-shadow: 5px 5px 15px 5px #000000;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    #search-div {
+        background-color: #FFFFFF;
+        display: block;
+        margin: 100px auto 0;
+        width: 1200px;
+        height: 400px;
+        color: #FFF;
+        padding: 10px;
+    }
+
+    #content-div {
+        margin: 60px 0px 0px 80px;
+        width: 40%;
+    }
+
+    #results-div {
+        /*margin: 60px 0px 0px 500px;*/
+        /*background-color: green;*/
+
+        float: left;
+        position: absolute;
+        width: 25%;
+        height: 25%;
+        padding: 10px;
+        border-style: solid;
+        border-width: 0px 0px 0px 1px;
+        top:250px;
+        bottom:250px;
+        left: 50%;
+        /*margin: 0 auto 0 auto;*/
+    }
+
+    /* The container */
+    .container {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 15px;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    /* Hide the browser's default radio button */
+    .container input {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+    }
+
+    /* Create a custom radio button */
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 15px;
+        width: 15px;
+        background-color: #eee;
+        border-radius: 50%;
+    }
+
+    /* On mouse-over, add a grey background color */
+    .container:hover input ~ .checkmark {
+        background-color: #ccc;
+    }
+
+    /* When the radio button is checked, add a blue background */
+    .container input:checked ~ .checkmark {
+        background-color: #2196F3;
+    }
+
+    /* Create the indicator (the dot/circle - hidden when not checked) */
+    .checkmark:after {
+        content: "";
+        position: absolute;
+        display: none;
+    }
+
+    /* Show the indicator (dot/circle) when checked */
+    .container input:checked ~ .checkmark:after {
+        display: block;
+    }
+
+    /* Style the indicator (dot/circle) */
+    .container .checkmark:after {
+        top: 4px;
+        left: 4px;
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: white;
+    }
+
+    input[type=text] {
+        width: 80%;
+        color: black;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    input[type=text], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 80%;
+        background-color: #cccccc;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+<header>
+    <img id="uah-template-logo" src="img/UAH_Logo.png" alt="UAH_LOGO"/>
+    <p id="template-header-title">POST Grad</p>
+    <p id="template-header-subtitle">Program of Study Tracker for Grad Students</p>
+</header>
+
+<div>
+    <div id="search-div">
+        <div id="content-div">
+            <form action="">
+                <label>Search by:</label><br><br>
+                <label class="container">Last Name
+                    <input type="radio" checked="checked" name="search_by" value="last_name" ng-model="$ctrl.searchType">
+                    <span class="checkmark"></span>
+                </label>
+                <label class="container">Charger ID
+                    <input type="radio" name="search_by" value="charger_id" ng-model="$ctrl.searchType">
+                    <span class="checkmark"></span>
+                </label>
+                <input type="text" id="searchValue" ng-model="$ctrl.searchValue">
+                <br><br>
+                <input type="submit" style="color: black;" value="Search" ng-click="$ctrl.search()">
+            </form>
+        </div>
+        <div id="results-div">
+            <p>Search Results:</p>
+            <p ng-repeat="x in $ctrl.results">{{x.first_name + " " + x.last_name}}</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p id="template-footer-text">Need help? Call IT at 555.555.5555</p>
+</footer>

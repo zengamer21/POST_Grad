@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="postGradApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="postGradApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="postGradApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="postGradApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>POST Grad</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/normalize.css">
+  <link rel="stylesheet" href="bower_components/html5-boilerplate/dist/css/main.css">
+  <link rel="stylesheet" href="app.css">
+  <script src="bower_components/html5-boilerplate/dist/js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<!--<body id="login-background";>-->
+<body id="login-background">
+
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+
+  <div ng-view></div>
+
+  <div id="version-id">POST Grad app: v<span app-version></span></div>
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+
+  <!--<script src="core/core.module.js"></script>-->
+  <!--<script src="core/mysqldb/mysqldb.module.js"></script>-->
+  <!--<script src="core/mysqldb/mysqldb.service.js"></script>-->
+
+  <script src="components/login/login.module.js"></script>
+  <script src="components/login/login.component.js"></script>
+
+  <script src="components/search/search.module.js"></script>
+  <script src="components/search/search.component.js"></script>
+
+  <script src="components/import-spreadsheet/import-spreadsheet.module.js"></script>
+  <script src="components/import-spreadsheet/import-spreadsheet.component..js"></script>
+
+  <script src="components/faculty-home/faculty-home.module.js"></script>
+  <script src="components/faculty-home/faculty-home.component.js"></script>
+
+  <script src="components/faculty-view-all/faculty-view-all.module.js"></script>
+  <script src="components/faculty-view-all/faculty-view-all.component.js"></script>
+
+  <script src="components/search-results/search-results.module.js"></script>
+  <script src="components/search-results/search-results.component.js"></script>
+
+  <script src="components/student-home/student-home.module.js"></script>
+  <script src="components/student-home/student-home.component.js"></script>
+
+  <script src="components/it-home/it-home.module.js"></script>
+  <script src="components/it-home/it-home.component.js"></script>
+
+  <script src="components/manage-privileges/manage-privileges.module.js"></script>
+  <script src="components/manage-privileges/manage-privileges.component.js"></script>
+
+  <script src="components/view-pos/view-pos.module.js"></script>
+  <script src="components/view-pos/view-pos.component.js"></script>
+
+  <script src="components/outline/outline.module.js"></script>
+  <script src="components/outline/outline.component.js"></script>
+
+  <script src="components/contact-info/contact-info.module.js"></script>
+  <script src="components/contact-info/contact-info.component.js"></script>
+
+  <script src="components/version/version.js"></script>
+  <script src="components/version/version-directive.js"></script>
+  <script src="components/version/interpolate-filter.js"></script>
+</body>
+</html>
