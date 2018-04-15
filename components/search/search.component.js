@@ -21,8 +21,8 @@ component('search', {
                                 alert("No students found by that name!")
                             }
                             else{
-                                self.results = data;
-                                // $location.path("/components/search-results");
+                                DataService.searchResults = data;
+                                $location.path("/components/search-results");
                             }
                         })
                         .error(function(data){
@@ -36,8 +36,8 @@ component('search', {
                                 alert("No students found by that chargerID!")
                             }
                             else{
-                                self.results = data;
-                                // $location.path("/components/search-results");
+                                DataService.searchResults = data;
+                                $location.path("/components/search-results");
                             }
                         })
                         .error(function(data){

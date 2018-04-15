@@ -2,6 +2,35 @@
     * {
         box-sizing: border-box;
     }
+
+    #search-div {
+        -webkit-box-shadow: 5px 5px 15px 5px #000000;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    #search-div {
+        background-color: #FFFFFF;
+        display: block;
+        margin: 100px auto 0;
+        width: 500px;
+        height: 400px;
+        color: #FFF;
+        padding: 10px;
+    }
+    h4{
+        color: black;
+    }
+    li{
+        color: black;
+    }
+    #content-div {
+        margin: 60px 0px 0px 80px;
+    }
+
+    button{
+        width: 50%;
+        color: black;
+
+    }
 </style>
 <header>
     <img id="uah-template-logo" src="img/UAH_Logo.png" alt="UAH_LOGO"/>
@@ -9,11 +38,14 @@
     <p id="template-header-subtitle">Program of Study Tracker for Grad Students</p>
 </header>
 
-<div>
-    <div id="search-div">
-        <div id="content-div">
-            <p ng-repeat="x in $ctrl.results"><{{x}}</p>
-        </div>
+
+<div id="search-div">
+    <div id="content-div">
+        <h4>Search Results:</h4>
+        <ul role="listbox">
+            <li ng-repeat="x in $ctrl.results" role="option">{{x.first_name + " " + x.last_name}}</li>
+        </ul>
+        <button ng-click="$ctrl.viewPos()">View POS</button>
     </div>
 </div>
 

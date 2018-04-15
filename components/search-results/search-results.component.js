@@ -5,11 +5,15 @@ angular.
 module('searchResults').
 component('searchResults', {
     templateUrl: 'components/search-results/search-results.template.html',
-    controller: ['$scope', '$routeParams', '$http', 'DataService',
-        function SearchResultsCtrl($scope, $routeParams, $http, DataService) {
+    controller: ['$scope', '$routeParams', '$http', '$location', 'DataService',
+        function SearchResultsCtrl($scope, $routeParams, $http, $location, DataService) {
             var self = this;
 
-            var results = $scope.results;
+            self.results = DataService.searchResults;
+
+            self.viewPos = function(){
+                $location.path("/components/view-pos")
+            }
         }
     ]
 });
