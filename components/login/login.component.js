@@ -5,8 +5,8 @@ angular.
 module('login').
     component('login', {
         templateUrl: 'components/login/login.template.html',
-        controller: ['$routeParams', '$http', '$location',
-            function LoginCtrl($routeParams, $http, $location) {
+        controller: ['$routeParams', '$http', '$location', 'DataService',
+            function LoginCtrl($routeParams, $http, $location, DataService) {
 
                 var self = this;
                 var username;
@@ -22,6 +22,7 @@ module('login').
                                 // switch on role that is returned from the query
                                 switch(data[0].role.toLowerCase()) {
                                     case "faculty":
+                                        DataService.role = "faculty";
                                         $location.path("/components/faculty-home");
                                         break;
                                     case "student":

@@ -2,5 +2,6 @@
 
 // Define the `login` module
 angular.module('login', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

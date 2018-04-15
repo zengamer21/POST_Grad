@@ -1,4 +1,4 @@
-// 'use strict';
-//
-// // Define the `mysqldb` module
-// angular.module('core', ['core.mysqldb']);
+'use strict';
+
+// Define the `dataService` module
+angular.module('core', ['core.dataService']);

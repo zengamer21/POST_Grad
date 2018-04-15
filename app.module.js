@@ -4,6 +4,7 @@
 angular.module('postGradApp', [
   'ngRoute',
   'login',
+  'core',
   'outline',
   'facultyHome',
   'facultyViewAll',
