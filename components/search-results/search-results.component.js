@@ -5,8 +5,8 @@ angular.
 module('searchResults').
 component('searchResults', {
     templateUrl: 'components/search-results/search-results.template.html',
-    controller: ['$scope', '$routeParams', '$http',
-        function SearchResultsCtrl($scope, $routeParams, $http) {
+    controller: ['$scope', '$routeParams', '$http', 'DataService',
+        function SearchResultsCtrl($scope, $routeParams, $http, DataService) {
             var self = this;
 
             var results = $scope.results;

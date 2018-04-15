@@ -5,8 +5,8 @@ angular.
 module('managePrivileges').
 component('managePrivileges', {
     templateUrl: 'components/manage-privileges/manage-privileges.template.html',
-    controller: ['$routeParams', '$http',
-        function ManagePrivilegesCtrl($routeParams, $http) {
+    controller: ['$routeParams', '$http', 'DataService',
+        function ManagePrivilegesCtrl($routeParams, $http, DataService) {
             // var self = this;
             // self.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
             //     self.setImage(phone.images[0]);

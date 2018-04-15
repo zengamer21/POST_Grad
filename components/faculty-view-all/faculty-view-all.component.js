@@ -5,8 +5,8 @@ angular.
 module('facultyViewAll').
 component('facultyViewAll', {
     templateUrl: 'components/faculty-view-all/faculty-view-all.template.html',
-    controller: ['$routeParams', '$http',
-        function FacultyViewAllCtrl($routeParams, $http) {
+    controller: ['$routeParams', '$http', 'DataService',
+        function FacultyViewAllCtrl($routeParams, $http, DataService) {
             // var self = this;
             // self.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
             //     self.setImage(phone.images[0]);

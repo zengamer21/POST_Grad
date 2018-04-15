@@ -2,5 +2,6 @@
 
 // Define the `contactInfo` module
 angular.module('contactInfo', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

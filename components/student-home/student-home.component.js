@@ -5,7 +5,7 @@ angular.
 module('studentHome').
 component('studentHome', {
     templateUrl: 'components/student-home/student-home.template.html',
-    controller: ['$routeParams', '$location',
+    controller: ['$routeParams', '$location', 'DataService',
         function StudentHomeCtrl($routeParams, $location) {
             var self = this;
 

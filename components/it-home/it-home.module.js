@@ -2,5 +2,6 @@
 
 // Define the `itHome` module
 angular.module('itHome', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

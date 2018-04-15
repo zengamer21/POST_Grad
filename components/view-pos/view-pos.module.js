@@ -2,5 +2,6 @@
 
 // Define the `viewPos` module
 angular.module('viewPos', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

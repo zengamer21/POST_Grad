@@ -5,8 +5,8 @@ angular.
 module('search').
 component('search', {
     templateUrl: 'components/search/search.template.html',
-    controller: ['$scope', '$routeParams', '$http', '$location',
-        function SearchCtrl($scope, $routeParams, $http, $location) {
+    controller: ['$scope', '$routeParams', '$http', '$location', 'DataService',
+        function SearchCtrl($scope, $routeParams, $http, $location, DataService) {
             var self = this;
             var searchValue = "";
             var searchType = "";

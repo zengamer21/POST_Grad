@@ -2,5 +2,6 @@
 
 // Define the `managePrivileges` module
 angular.module('managePrivileges', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

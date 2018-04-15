@@ -5,8 +5,8 @@ angular.
 module('facultyHome').
 component('facultyHome', {
     templateUrl: 'components/faculty-home/faculty-home.template.html',
-    controller: ['$routeParams', '$location',
-        function FacultyHomeCtrl($routeParams, $location) {
+    controller: ['$routeParams', '$location', 'DataService',
+        function FacultyHomeCtrl($routeParams, $location, DataService) {
             var self = this;
 
             self.goToSearch = function() {

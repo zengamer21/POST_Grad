@@ -2,5 +2,6 @@
 
 // Define the `studentHome` module
 angular.module('studentHome', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

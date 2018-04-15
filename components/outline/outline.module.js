@@ -2,5 +2,6 @@
 
 // Define the `outline` module
 angular.module('outline', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

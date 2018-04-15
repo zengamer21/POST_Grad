@@ -2,5 +2,6 @@
 
 // Define the `importSpreadsheet` module
 angular.module('importSpreadsheet', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

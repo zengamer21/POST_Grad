@@ -2,5 +2,6 @@
 
 // Define the `facultyHome` module
 angular.module('facultyHome', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

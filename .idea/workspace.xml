@@ -2,17 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91b93740-110e-455a-8da8-7c5580987a21" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/core/data-service/data-service.module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/data-service/data-service.service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ajax/dbConn.php" beforeDir="false" afterPath="$PROJECT_DIR$/ajax/dbConn.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/login/login.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/login.component.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/login/login.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/login/login.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.module.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/mysqldb/mysqldb.module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/mysqldb/mysqldb.service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/contact-info/contact-info.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact-info/contact-info.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/contact-info/contact-info.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/contact-info/contact-info.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/faculty-home/faculty-home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/faculty-home/faculty-home.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/faculty-home/faculty-home.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/faculty-home/faculty-home.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.component..js" beforeDir="false" afterPath="$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.component..js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/it-home/it-home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/it-home/it-home.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/it-home/it-home.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/it-home/it-home.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/manage-privileges/manage-privileges.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/manage-privileges/manage-privileges.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/manage-privileges/manage-privileges.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/manage-privileges/manage-privileges.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/outline/outline.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/outline/outline.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/outline/outline.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/outline/outline.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search-results/search-results.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/search-results/search-results.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search-results/search-results.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/search-results/search-results.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search/search.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/search/search.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/search/search.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/search/search.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/student-home/student-home.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/student-home/student-home.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/student-home/student-home.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/student-home/student-home.module.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/view-pos/view-pos.component.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/view-pos/view-pos.component.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/view-pos/view-pos.module.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/view-pos/view-pos.module.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,92 +37,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="search.component.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/search/search.component.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data-service.service.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/data-service/data-service.service.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/core.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.component.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/components/login/login.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="119">
+              <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbConn.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ajax/dbConn.php">
+      <file leaf-file-name="search.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/search/search.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="manage-privileges.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/manage-privileges/manage-privileges.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="37" column="32" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.config.js">
+      <file leaf-file-name="outline.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/outline/outline.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+            <state relative-caret-position="136">
+              <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.module.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/components/login/login.module.js">
+      <file leaf-file-name="faculty-home.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/faculty-home/faculty-home.component.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="data-service.module.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/data-service/data-service.module.js">
+      <file leaf-file-name="faculty-view-all.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.component.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+            <state relative-caret-position="136">
+              <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search-results.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/search-results/search-results.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view-pos.component.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/components/view-pos/view-pos.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="import-spreadsheet.component..js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.component..js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="it-home.component.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/components/it-home/it-home.component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -126,21 +137,14 @@
       <list>
         <option value="$PROJECT_DIR$/php/demo_mysql_conn.js" />
         <option value="$PROJECT_DIR$/components/template/outline.component.js" />
-        <option value="$PROJECT_DIR$/components/outline/outline.component.js" />
-        <option value="$PROJECT_DIR$/components/outline/outline.module.js" />
         <option value="$PROJECT_DIR$/components/faculty-home/faculty-home.template.html" />
         <option value="$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.template.html" />
         <option value="$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.template.html" />
         <option value="$PROJECT_DIR$/components/manage-privileges/manage-privileges.template.html" />
         <option value="$PROJECT_DIR$/components/view-pos/view-pos.template.html" />
-        <option value="$PROJECT_DIR$/components/faculty-home/faculty-home.component.js" />
-        <option value="$PROJECT_DIR$/components/contact-info/contact-info.module.js" />
         <option value="$PROJECT_DIR$/components/contact-info/contact-info.template.html" />
         <option value="$PROJECT_DIR$/components/student-home/student-home.template.html" />
-        <option value="$PROJECT_DIR$/components/contact-info/contact-info.component.js" />
-        <option value="$PROJECT_DIR$/components/student-home/student-home.component.js" />
         <option value="$PROJECT_DIR$/components/it-home/it-home.template.html" />
-        <option value="$PROJECT_DIR$/components/it-home/it-home.component.js" />
         <option value="$PROJECT_DIR$/app.css" />
         <option value="$PROJECT_DIR$/components/login/login.template.html" />
         <option value="$PROJECT_DIR$/ajax/authenticateUser.php" />
@@ -148,8 +152,6 @@
         <option value="$PROJECT_DIR$/ajax/searchByChargerID.php" />
         <option value="$PROJECT_DIR$/app.config.js" />
         <option value="$PROJECT_DIR$/components/search-results/search-results.template.html" />
-        <option value="$PROJECT_DIR$/components/search-results/search-results.component.js" />
-        <option value="$PROJECT_DIR$/components/search/search.component.js" />
         <option value="$PROJECT_DIR$/components/search/search.template.html" />
         <option value="$PROJECT_DIR$/core/mysqldb/data-service.service.js" />
         <option value="$PROJECT_DIR$/core/core.module.js" />
@@ -160,6 +162,28 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/components/login/login.component.js" />
         <option value="$PROJECT_DIR$/ajax/dbConn.php" />
+        <option value="$PROJECT_DIR$/components/faculty-home/faculty-home.module.js" />
+        <option value="$PROJECT_DIR$/components/faculty-home/faculty-home.component.js" />
+        <option value="$PROJECT_DIR$/components/contact-info/contact-info.module.js" />
+        <option value="$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.module.js" />
+        <option value="$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.module.js" />
+        <option value="$PROJECT_DIR$/components/it-home/it-home.module.js" />
+        <option value="$PROJECT_DIR$/components/manage-privileges/manage-privileges.module.js" />
+        <option value="$PROJECT_DIR$/components/outline/outline.module.js" />
+        <option value="$PROJECT_DIR$/components/search/search.module.js" />
+        <option value="$PROJECT_DIR$/components/search-results/search-results.module.js" />
+        <option value="$PROJECT_DIR$/components/student-home/student-home.module.js" />
+        <option value="$PROJECT_DIR$/components/view-pos/view-pos.module.js" />
+        <option value="$PROJECT_DIR$/components/student-home/student-home.component.js" />
+        <option value="$PROJECT_DIR$/components/contact-info/contact-info.component.js" />
+        <option value="$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.component.js" />
+        <option value="$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.component..js" />
+        <option value="$PROJECT_DIR$/components/it-home/it-home.component.js" />
+        <option value="$PROJECT_DIR$/components/manage-privileges/manage-privileges.component.js" />
+        <option value="$PROJECT_DIR$/components/outline/outline.component.js" />
+        <option value="$PROJECT_DIR$/components/search/search.component.js" />
+        <option value="$PROJECT_DIR$/components/search-results/search-results.component.js" />
+        <option value="$PROJECT_DIR$/components/view-pos/view-pos.component.js" />
       </list>
     </option>
   </component>
@@ -202,7 +226,73 @@
               <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
               <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="contact-info" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="faculty-home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="faculty-view-all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="import-spreadsheet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="it-home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="manage-privileges" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="outline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="search-results" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="student-home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POST_Grad" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="view-pos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="POST_Grad" type="b2602c69:ProjectViewProjectNode" />
@@ -265,12 +355,12 @@
       <option name="presentableId" value="Default" />
       <updated>1523764476374</updated>
       <workItem from="1523764477730" duration="12631000" />
-      <workItem from="1523806269765" duration="5385000" />
+      <workItem from="1523806269765" duration="6066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18016000" />
+    <option name="totallyTimeSpent" value="18697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2553" y="-7" width="2575" height="1415" extended-state="6" />
@@ -315,65 +405,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/components/search/search.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="9" selection-start-line="118" selection-start-column="9" selection-end-line="118" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#input#1;n#form#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/search-results/search-results.template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2091">
-          <caret line="123" column="50" selection-start-line="123" selection-start-column="50" selection-end-line="123" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275638">
-          <caret line="16214" column="10" selection-start-line="16214" selection-start-column="10" selection-end-line="16214" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/login/login.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/searchByLastName.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="17" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ajax/searchByChargerID.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/search-results/search-results.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/search/search.component.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -392,20 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/outline/outline.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/outline/outline.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -451,20 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/contact-info/contact-info.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/contact-info/contact-info.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/student-home/student-home.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -479,13 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/it-home/it-home.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/authenticateUser.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -497,20 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="45" lean-forward="true" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/student-home/student-home.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/faculty-home/faculty-home.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -542,13 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/search-results/search-results.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/components/faculty-home/faculty-home.template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
@@ -573,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/search/search.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -601,24 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/data-service/data-service.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/core/data-service/data-service.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/components/login/login.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -629,17 +583,185 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/components/login/login.component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ajax/dbConn.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/data-service/data-service.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/faculty-home/faculty-home.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/contact-info/contact-info.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/it-home/it-home.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/login/login.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/manage-privileges/manage-privileges.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/outline/outline.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/search/search.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/search-results/search-results.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/student-home/student-home.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/view-pos/view-pos.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/student-home/student-home.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/contact-info/contact-info.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="56" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/faculty-home/faculty-home.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/faculty-view-all/faculty-view-all.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/import-spreadsheet/import-spreadsheet.component..js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="74" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/it-home/it-home.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="67" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/login/login.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="57" lean-forward="true" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/manage-privileges/manage-privileges.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/outline/outline.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="75" selection-start-line="8" selection-start-column="75" selection-end-line="8" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/search/search.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/search-results/search-results.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/components/view-pos/view-pos.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
         </state>
       </provider>
     </entry>

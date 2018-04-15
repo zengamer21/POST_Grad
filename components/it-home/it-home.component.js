@@ -5,8 +5,8 @@ angular.
 module('itHome').
 component('itHome', {
     templateUrl: 'components/it-home/it-home.template.html',
-    controller: ['$routeParams', '$location',
-        function ItHomeCtrl($routeParams, $location) {
+    controller: ['$routeParams', '$location', 'DataService',
+        function ItHomeCtrl($routeParams, $location, DataService) {
             var self = this;
 
             self.viewProgramsOfStudy = function() {

@@ -5,8 +5,8 @@ angular.
 module('contactInfo').
 component('contactInfo', {
     templateUrl: 'components/contact-info/contact-info.template.html',
-    controller: ['$routeParams', '$location',
-        function ContactInfoCtrl($routeParams, $location) {
+    controller: ['$routeParams', '$location', 'DataService',
+        function ContactInfoCtrl($routeParams, $location, DataService) {
             var self = this;
 
             // self.goToSearch = function() {

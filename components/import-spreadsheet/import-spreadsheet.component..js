@@ -5,8 +5,8 @@ angular.
 module('importSpreadsheet').
 component('importSpreadsheet', {
     templateUrl: 'components/import-spreadsheet/import-spreadsheet.template.html',
-    controller: ['$routeParams', '$http',
-        function ImportSpreadsheetCtrl($routeParams, $http) {
+    controller: ['$routeParams', '$http', 'DataService',
+        function ImportSpreadsheetCtrl($routeParams, $http, DataService) {
             // var self = this;
             // self.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
             //     self.setImage(phone.images[0]);

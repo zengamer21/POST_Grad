@@ -5,8 +5,8 @@ angular.
 module('outline').
 component('outline', {
     templateUrl: 'components/outline/outline.template.html',
-    controller: ['$routeParams', '$http', '$location',
-        function OutlineCtrl($routeParams, $http, $location) {
+    controller: ['$routeParams', '$http', '$location', 'DataService',
+        function OutlineCtrl($routeParams, $http, $location, DataService) {
             // var self = this;
             // self.phone = Phone.get({phoneId: $routeParams.phoneId}, function(phone) {
             //     self.setImage(phone.images[0]);

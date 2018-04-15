@@ -2,5 +2,6 @@
 
 // Define the `facultyViewAll` module
 angular.module('facultyViewAll', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);

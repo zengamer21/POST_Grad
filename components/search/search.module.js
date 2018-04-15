@@ -2,5 +2,6 @@
 
 // Define the `search` module
 angular.module('search', [
-    'ngRoute'
+    'ngRoute',
+    'core.dataService'
 ]);
