@@ -1,10 +1,10 @@
 <?php
 require_once 'dbConn.php'; // The mysql database connection script
-$chargerid = "";
-if(isset($_GET['chargerid'])){
-	$chargerid = $mysqli->real_escape_string($_GET['chargerid']);
+$userid = "";
+if(isset($_GET['userid'])){
+	$userid = $mysqli->real_escape_string($_GET['userid']);
 }
-$query="SELECT id, role from persons where charger_id like '$chargerid'";
+$query="SELECT first_name, middle_name, last_name, address_street, address_city, address_state, address_zip, phone, email from persons where id = '$userid'";
 $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 
 $arr = array();
