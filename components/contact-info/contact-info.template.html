@@ -1,3 +1,131 @@
-<div>
-    <p>contact info</p>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    #contact-info-div {
+        -webkit-box-shadow: 5px 5px 15px 5px #000000;
+        box-shadow: 5px 5px 15px 5px #000000;
+    }
+    #contact-info-div {
+        background-color: #FFFFFF;
+        display: block;
+        margin: 100px auto 0;
+        width: 650px;
+        height: 450px;
+        color: #FFF;
+        padding: 10px;
+    }
+    label{
+        color: black;
+    }
+    li{
+        color: black;
+    }
+    #content-div {
+        margin: 0px 0px 0px 80px;
+    }
+    .column-left {
+        float: left;
+        position: relative;
+        width: 45%;
+        height: 100%;
+        padding: 10px;
+        border-style: solid;
+        border-width: 0px 1px 0px 0px;
+        margin: 0px 0px 0px 60px;
+        /*background-color: green;*/
+    }
+    .column-right {
+        float: left;
+        position: relative;
+        width: 45%;
+        height: 100%;
+        padding: 10px;
+        border-style: solid;
+        border-width: 0px 0px 0px 1px;
+        /*left: 25%;*/
+        margin: 0 auto 0 auto;
+        /*background-color: blue;*/
+    }
+    input[type=text] {
+        width: 100%;
+        color: black;
+        /*padding: 12px 20px;*/
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    input[type=text], select {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        width: 80%;
+        background-color: #cccccc;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #999999;
+        color: black;
+    }
+</style>
+<header>
+    <img id="uah-template-logo" src="img/UAH_Logo.png" alt="UAH_LOGO"/>
+    <p id="template-header-title">POST Grad</p>
+    <p id="template-header-subtitle">Program of Study Tracker for Grad Students</p>
+</header>
+<div id="contact-info-div">
+    <div class="column-left">
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" ng-model="$ctrl.firstname">
+        <br>
+        <label for="middlename">Middle Name:</label><br>
+        <input type="text" id="middlename" ng-model="$ctrl.middlename">
+        <br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" ng-model="$ctrl.lastname">
+        <br>
+        <label for="street">Street:</label><br>
+        <input type="text" id="street" ng-model="$ctrl.street">
+        <br>
+        <label for="city">City:</label><br>
+        <input type="text" id="city" ng-model="$ctrl.city">
+    </div>
+    <div class="column-right">
+        <label for="state">State:</label><br>
+        <input type="text" id="state" ng-model="$ctrl.state">
+        <br>
+        <label for="zip">Zip:</label><br>
+        <input type="text" id="zip" ng-model="$ctrl.zip">
+        <br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="phone" ng-model="$ctrl.phone">
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" ng-model="$ctrl.email">
+        <br><br>
+        <input type="submit" style="color: black;" value="Save" ng-click="$ctrl.saveToDB">
+    </div>
+    <div id="content-div">
+        <form>
+
+            <br>
+
+        </form>
+    </div>
 </div>
+
+
+<footer>
+    <p id="template-footer-text">Need help? Call IT at 555.555.5555</p>
+</footer>
