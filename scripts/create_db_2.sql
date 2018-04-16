@@ -31,6 +31,8 @@ CREATE TABLE IF NOT EXISTS `post_grad`.`persons` (
   `address_state` VARCHAR(100) NULL,
   `address_zip` VARCHAR(5) NULL,
   `advisor_id` INT NULL,
+  `phone` VARCHAR(45) NULL,
+  `email` VARCHAR(100) NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB;
 
