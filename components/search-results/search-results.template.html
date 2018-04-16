@@ -44,6 +44,9 @@
         <ul>
             <li ng-repeat="x in $ctrl.results" role="option">{{x.first_name + " " + x.last_name}}</li>
         </ul>
+        <br><br>
+        <button ng-click="$ctrl.managePrivileges()">Manage Privileges</button>
+        <br><br>
         <button ng-click="$ctrl.viewPos()">View POS</button>
     </div>
 </div>

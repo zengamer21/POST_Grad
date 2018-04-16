@@ -13,7 +13,11 @@ component('searchResults', {
 
             self.viewPos = function(){
                 $location.path("/components/view-pos")
-            }
+            };
+
+            self.managePrivileges = function(){
+                $location.path("/components/manage-privileges")
+            };
         }
     ]
 });

@@ -37,6 +37,9 @@ module('postGradApp').
          when('/components/import-spreadsheet', {
              template: '<import-spreadsheet></import-spreadsheet>'
          }).
+         when('/components/manage-privileges', {
+             template: '<manage-privileges></manage-privileges>'
+         }).
         otherwise('/components/login');
     }
 ]);
