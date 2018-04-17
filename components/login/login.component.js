@@ -26,7 +26,7 @@ module('login').
                                         $location.path("/components/faculty-home");
                                         break;
                                     case "student":
-                                        DataService.role = "faculty";
+                                        DataService.role = "student";
                                         $location.path("/components/student-home");
                                         break;
                                     case "staff":
