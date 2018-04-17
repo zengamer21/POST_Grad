@@ -6,7 +6,7 @@ module('studentHome').
 component('studentHome', {
     templateUrl: 'components/student-home/student-home.template.html',
     controller: ['$routeParams', '$location', 'DataService',
-        function StudentHomeCtrl($routeParams, $location) {
+        function StudentHomeCtrl($routeParams, $location, DataService) {
             var self = this;
 
             self.updateContactInfo = function() {
