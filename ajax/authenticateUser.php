@@ -4,7 +4,7 @@ $chargerid = "";
 if(isset($_GET['chargerid'])){
 	$chargerid = $mysqli->real_escape_string($_GET['chargerid']);
 }
-$query="SELECT id, role from persons where charger_id like '$chargerid'";
+$query="SELECT id, role, first_name, last_name from persons where charger_id like '$chargerid'";
 $result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 
 $arr = array();

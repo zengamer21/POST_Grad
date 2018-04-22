@@ -3,7 +3,23 @@
     * {
         box-sizing: border-box;
     }
+    #log-div{
+        position: absolute;
+        top: 10px;
+        right: 20px;
 
+    }
+    p{
+        color:white;
+        font-size:20px;
+    }
+    #sign-out-link{
+        color:black;
+        font-size:20px;
+        position: absolute;
+        top: 45px;
+        right: 5px;
+    }
     /* Create two equal columns that floats next to each other */
     .column-left {
         float: left;
@@ -44,7 +60,7 @@
         margin: 0 auto 0 auto;
     }
 
-    button {
+    .link-button {
         font-size: 40px;
         display: block;
         margin-left: auto;
@@ -60,16 +76,19 @@
     <p id="template-header-title">POST Grad</p>
     <p id="template-header-subtitle">Program of Study Tracker for Grad Students</p>
 </header>
-
+<div id="log-div">
+    <p>Logged in as: {{$ctrl.currentUser}}</p>
+    <button id="sign-out-link" ng-click="$ctrl.logOut()">Sign Out</button>
+</div>
 <div>
     <div class="column-left">
-        <button type="button" ng-click="$ctrl.updateContactInfo()">Update Contact Information</button>
+        <button class="link-button" type="button" ng-click="$ctrl.updateContactInfo()">Update Contact Information</button>
     </div>
     <div class="column-center">
-        <button type="button" ng-click="$ctrl.viewPos()">Create a program of study</button>
+        <button class="link-button" type="button" ng-click="$ctrl.viewPos()">Create a program of study</button>
     </div>
     <div class="column-right">
-        <button type="button" ng-click="$ctrl.viewPos()">View My Program of Study</button>
+        <button class="link-button" type="button" ng-click="$ctrl.viewPos()">View My Program of Study</button>
     </div>
 </div>
 

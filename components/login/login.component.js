@@ -43,6 +43,8 @@ module('login').
 
                                 // store ID so we can easily query for this user again later
                                 DataService.userID = data[0].id;
+                                DataService.firstName = data[0].first_name;
+                                DataService.lastName = data[0].last_name;
                             }
                          })
                         .error(function(data){

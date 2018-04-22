@@ -19,6 +19,17 @@ component('contactInfo', {
             self.phone = "";
             self.email = "";
 
+            self.currentUser = DataService.firstName + " " + DataService.lastName;
+
+            self.logOut = function(){
+                DataService.firstName = "";
+                DataService.lastName = "";
+                DataService.userID = "";
+                DataService.role = "";
+
+                $location.path("/components/login");
+            };
+
             $http.post("ajax/getContactInfo.php?userid="+self.userID)
                 .success(function(data){
 
